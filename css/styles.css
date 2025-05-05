@@ -1,16 +1,40 @@
 .container {
    
     margin: 40px auto;
-    width: 1200px;
+    width: 1050px;
+    height: auto;
     background-color: rgba(229, 228, 225, 0.793);
 }
 
 .list {
     display: flex;
+    flex-wrap: wrap;
+    list-style: none;
 }
 
 .item {
-    width: 70px;
-    height: 40px;
+    width: 170px;
+    height: 260px;
+    margin: 10px;
+    border: 0.5px solid rgb(234, 224, 224);
+    background-color: white;
+    box-shadow: 2px 2px 2px 1px rgba(98, 96, 90, 0.793);
+    
 }
 
+.color {
+    width: 140px;
+    margin: 15px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 3px 1px rgba(62, 62, 61, 0.793);
+}
+
+.title {
+    margin: 0 30px;
+    
+}
+
+.description {
+    margin: 10px 30px;
+    color: grey;
+}
